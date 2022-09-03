@@ -17,7 +17,10 @@
               colors: {
                 bgTitle: '#FBF7ED',
                 darkGreen: '#004C3F',
-                lightGreen: '#008060'
+                lightGreen: '#008060',
+                fontDarkGreen: '#004c3f',
+                textGrey: '#6b7177',
+                textAnotherGrey: '#42474c'
               },
               fontFamily: {
                 'open-sans': ['Open Sans, sans-serif']
@@ -72,6 +75,30 @@
     <!-- Main Container Begins Here -->
     <main>
 
+        <!-- Title div begins here -->
+        <div class="bg-bgTitle flex lg:flex-row lg:justify-between lg:items-center">
+
+            <!-- Content -->
+            <div class="ml-20 flex flex-col">
+                <h1 class="mb-6 text-[48px] font-bold text-fontDarkGreen leading-[70px]">The easiest way to sell <br> online in India</h1>
+                <p class="mb-7 text-[20px] font-lighter text-textGrey leading-[27px]">Try one of the most powerful platforms on the market for free. <br> No technical knowledge needed.</p>
+                <!-- input section for email -->
+                <div class="flex lg:flex-row lg:gap-4">
+                    <input type="email" name="email-input" id="email-input" placeholder="Enter your email address" 
+                    class="lg:w-[470px] pt-4 pb-4 pl-6 rounded-md border-1 border-black">
+                    <button class="mt-1 mb-1 lg:w-[130px] h-[50px] bg-lightGreen hover:bg-darkGreen rounded-md text-white font-bold">Try for free</button>
+                </div>
+                <p class="mt-5 text-[12px] font-lighter leading-[18px] text-textAnotherGrey">Try shopify free for 14 days, no credit card required. By entering your email, you agree to recieve marketing <br> 
+                emails from shopify.</p>
+            </div>
+
+            <!-- Image -->
+            <div class="">
+                <img src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/hero/in-hero-product-small-0c64c4c1013fc8ac477cb5ff62bf5b56b2903aec697e6b708b90d3b65a09baf8.jpg" alt="title-img" class="">
+            </div>
+
+        </div>
+        <!-- Title div ends here -->
     </main>
     <!-- Main Container Ends Here -->
 
