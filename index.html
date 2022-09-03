@@ -4,12 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopify</title>
+    <link rel="shortcut icon" href="./assets/shopify-icon.png" type="image/x-icon">
+    <title>Best Ecommerce Platform in India | Custom Ecommerce Software for Your Needs | Shopify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                bgTitle: '#FBF7ED',
+                darkGreen: '#004C3F',
+                lightGreen: '#008060'
+              },
+              fontFamily: {
+                'open-sans': ['Open Sans, sans-serif']
+              },
+              fontWeight: {
+                lighter: 400,
+                light: 500,
+                'semi-bold': 600,
+                bold: 700
+              }
+            }
+          }
+        }
+      </script>
 </head>
-<body>
+
+<body class="font-open-sans">
 
     <!-- Navbar begins here -->
-    <nav>
+    <nav class="bg-bgTitle pl-20 pr-20 w-full flex lg:flex-row lg:justify-between lg:items-center font-light">
+
+            <!-- This div holds the logo -->
+            <div class=" flex lg:justify-around lg:items-center lg:mr-10">
+                <!-- image -->
+                <img src="./assets/logo.png" alt="shopify-logo.png" class="w-[125px] h-[70px] lg:mr-8">
+                
+                <!-- links -->
+                <div class="flex lg:flex-row lg:justify-around lg:items-center lg:gap-8">
+                    <a href="#" class="text-[17px] font-light">Start <!--Arrow Downwards--><div class="mb-1 ml-1 w-[7px] h-[7px] inline-block rotate-45 border-r-2 border-b-2 border-black"></div></a>
+                    <a href="#">Sell <!--Arrow Downwards--><div class="mb-1 ml-1 w-[7px] h-[7px] inline-block rotate-45 border-r-2 border-b-2 border-black"></div></a>
+                    <a href="#">Market <!--Arrow Downwards--><div class="mb-1 ml-1 w-[7px] h-[7px] inline-block rotate-45 border-r-2 border-b-2 border-black"></div></a>
+                    <a href="#">Manage <!--Arrow Downwards--><div class="mb-1 ml-1 w-[7px] h-[7px] inline-block rotate-45 border-r-2 border-b-2 border-black"></div></a>
+                </div>
+            </div>           
+        
+            <!-- This div holds the links along with the buttons -->
+            <div class="flex lg:flex-row lg:items-center lg:gap-8">
+
+                <!-- Links -->
+                <a href="">Pricing</a>
+                <a href="">Learn <!--Arrow Downwards--><div class="mb-1 ml-1 w-[7px] h-[7px] inline-block rotate-45 border-r-2 border-b-2 border-black"></div></a>
+                <a href="">Log in</a>
+
+                <!-- button -->
+                <button class="w-[130px] h-[40px] bg-lightGreen hover:bg-darkGreen rounded-md text-white">Try For free</button>
+
+            </div>
 
     </nav>
     <!-- Navbar Ends Here -->
