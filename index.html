@@ -23,7 +23,9 @@
                 textGrey: '#6b7177',
                 textAnotherGrey: '#42474c',
                 featuresTextBlack: '#212326',
-                featuresTextGrey: '#6b7177'
+                featuresTextGrey: '#6b7177',
+                footerGrey: '#b6babf',
+                footerBorder: '#103B33'
               },
               fontFamily: {
                 'open-sans': ['Open Sans, sans-serif']
@@ -533,9 +535,146 @@
     <!-- Main Container Ends Here -->
 
     <!-- Footer Begins Here -->
-    <footer>
+    <footer class="p-10 bg-darkerGreen text-footerGrey text-[14px] font-lighter">
+      
+      <!-- upper footer -->
+      <div class="pl-10 pb-6 border-b-2 border-footerBorder">
+        <!-- list -->
+        <ul class="flex flex-row justify-start items-center gap-10 text-white text-[16px] font-bold">
+          <li class="hover:cursor-pointer hover:border-b-3 hover:border-footerBorder">About</li>
+          <li class="hover:cursor-pointer">Careers</li>
+          <li class="hover:cursor-pointer">Press and Media</li>
+          <li class="hover:cursor-pointer">Shopify Plus</li>
+          <li class="hover:cursor-pointer">Sitemap</li>
+        </ul>
+      </div>
+
+      <!-- middle footer -->
+      <div class="mt-10 mb-10 flex justify-around gap-10">
         
+        <!-- online store list -->
+        <div class="flex flex-col">
+          
+         <!-- heading -->
+         <h3 class="text-[14px] font-bold text-white">ONLINE STORE</h3>
+          
+         <!-- list div -->
+         <div class="flex">
+
+           <!-- list -->
+           <ul class="mr-20">
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Sell Online</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Features</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Examples</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Website builder</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Online retail</li>
+          </ul>
+
+          <!-- list -->
+          <ul class="mr-20">
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Ecommerce website</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Domain names</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Themes</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Shopping cart</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Ecommerce hosting</li>
+          </ul>
+
+          <!-- list -->
+          <ul class="">
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Mobile commerce</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Ecommerce software</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Online store builder</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Dropshipping Business</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Store themes</li>
+          </ul> 
+         </div>
+
+        </div>
+
+        <!-- point of sale list-->
+        <div class="">
+          <!-- heading -->
+          <h1 class="text-[14px] font-bold text-white">POINT OF SALE</h1>
+
+          <!-- list div -->
+          <div>
+            <!-- list -->
+            <ul class="">
+              <li class=" mt-2 hover:text-white hover:cursor-pointer">Point of sale</li>
+              <li class=" mt-2 hover:text-white hover:cursor-pointer">Features</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- support list -->
+        <div class="">
+
+          <!-- heading -->
+          <h1 class="text-[14px] font-bold text-white">SUPPORT</h1>
+
+          <!-- list -->
+          <ul class="">
+            <li class=" mt-2 hover:text-white hover:cursor-pointer">24/7 support</li>
+            <li class=" mt-2 hover:text-white hover:cursor-pointer">Shopify Help Center</li>
+            <li class=" mt-2 hover:text-white hover:cursor-pointer">Shopify Community</li>
+            <li class=" mt-2 hover:text-white hover:cursor-pointer">API documentation</li>
+            <li class=" mt-2 hover:text-white hover:cursor-pointer">Free tools</li>
+            <li class=" mt-2 hover:text-white hover:cursor-pointer">Free stock photos</li>
+            <li class=" mt-2 hover:text-white hover:cursor-pointer">Websites for sale</li>
+            <li class=" mt-2 hover:text-white hover:cursor-pointer">Logo Maker</li>
+            <li class=" mt-2 hover:text-white hover:cursor-pointer">Business name generator</li>
+            <li class=" mt-2 hover:text-white hover:cursor-pointer">Research</li>
+            <li class=" mt-2 hover:text-white hover:cursor-pointer">Legal</li>
+          </ul>
+
+        </div>
+        
+        <!-- Shopify list -->
+        <div class="">
+
+          <!-- heading -->
+          <h1 class="text-[14px] font-bold text-white">SHOPIFY</h1>
+
+          <!-- list -->
+          <ul class="">
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Contact</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Partner program</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Affiliate program</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">App developers</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Investors</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Blog topics</li>
+            <li class="mt-2 hover:text-white hover:cursor-pointer">Community Events</li>
+          </ul>
+
+        </div>
+        
+      </div>
+
+      <!-- lower footer -->
+      <div class="pt-5 pl-10 pr-10 border-t-2 border-footerBorder flex justify-between">
+
+        <!-- social media links -->
+        <div class="flex gap-8">
+          <img src="./assets/facebook.png" alt="facebook.png" class="w-[25px] h-[25px] invert hover:cursor-pointer">
+          <img src="./assets/twitter.png" alt="twitter.png" class="w-[25px] h-[25px] invert hover:cursor-pointer">
+          <img src="./assets/youtube.png" alt="youtube.png" class="w-[25px] h-[25px] invert hover:cursor-pointer">
+          <img src="./assets/instagram.png" alt="instagram.png" class="w-[25px] h-[25px] invert hover:cursor-pointer">
+          <img src="./assets/linkedin.png" alt="linkedIn/png" class="w-[25px] h-[25px] invert hover:cursor-pointer">
+          <img src="./assets/pinterest.png" alt="pinterest.png" class="w-[25px] h-[25px] invert hover:cursor-pointer">
+        </div>
+
+        <!-- Terms od Service -->
+        <div class="flex flex-row gap-5">
+          <a href="" class="hover:text-white hover:cursor-pointer">Terms of Service</a>
+          <a href="" class="hover:text-white hover:cursor-pointer">Privacy Policy</a>
+          <a href="" class="flex hover:text-white hover:cursor-pointer"><img src="./assets/Globe.svg" alt="globe.svg" class="h-[20px] w-[20px] mr-2"> India</a>
+        </div>
+
+      </div>
+
     </footer>
     <!-- Footer Ends Here -->
+
 </body>
 </html>
